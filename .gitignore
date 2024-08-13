@@ -36,6 +36,7 @@ Temporary Items
 *.icloud
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -59,3 +60,6 @@ temp/
 
 # ignore notebooks
 notebooks
+
+# ignore env
+.env
