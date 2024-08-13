@@ -61,5 +61,7 @@ temp/
 # ignore notebooks
 notebooks
 
-# ignore env
+# ignore env, local
 .env
+local
+scripts/__pycache__

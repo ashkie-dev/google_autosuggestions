@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import pandas as pd
+# from storage import store_queries
 
 
 class SearchTerms:
@@ -24,13 +25,19 @@ class SearchTerms:
         return parseResults(self.response)
 
 
-userInput = input('Enter search query: ')
+# userInput = input('Enter search query: ')
 
-extractor = SearchTerms()
+# extractor = SearchTerms()
 
-answers = extractor.KeywordQuery(userInput)
+# answers = extractor.KeywordQuery(userInput)
 
-for result in answers:
-    print(result)
+# store_queries(userQuery=userInput, answers=answers)
 
-print("Done")
+# print('Printing Results: ')
+# print('-----------------')
+# for result in answers:
+#     print(result)
+
+
+# print('-----------------')
+# print("Done")
